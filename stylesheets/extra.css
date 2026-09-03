@@ -1,0 +1,23 @@
+em{
+    color: rgb(201, 50, 50);
+}
+
+strong{
+    color: #da971c;
+}
+a{
+    /* text-decoration: underline; */
+}
+
+/* :root > * {
+    --md-primary-fg-color: ;
+} */
+
+[data-md-color-scheme="rhysLight"] {
+    --md-hue: 210;
+    --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+}
+
+[data-md-color-scheme="slate"] { /*Override slate theme properties.*/
+    --md-hue: 210; 
+}
