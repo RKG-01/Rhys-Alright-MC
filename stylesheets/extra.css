@@ -15,7 +15,7 @@ a{
 
 [data-md-color-scheme="rhysLight"] {
     --md-hue: 210;
-    --md-primary-bg-color:               hsla(0, 0%, 100%, 1);
+    /* --md-primary-bg-color:               hsla(0, 0%, 100%, 1); */
 }
 
 [data-md-color-scheme="slate"] { /*Override slate theme properties.*/
