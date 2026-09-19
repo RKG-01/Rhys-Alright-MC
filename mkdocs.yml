@@ -1,0 +1,48 @@
+site_name: Rhys' Alright Minecraft Docs
+repo_url: https://github.com/RKG-01/Rhys-Alright-MC
+repo_name: Rhys/Rhys-Alright-MC
+site_url: https://www.rhys-ree.com/alrightMinecraft
+theme:
+  name: material
+  language: en
+  icon:
+    logo: material/Book
+    repo: fontawesome/brands/github
+
+  palette:
+    # Palette toggle for light mode
+  - media: "(prefers-color-scheme: light)"
+    scheme: rhysLight
+    color_mode: light
+    primary: teal
+    accent: indigo
+    toggle:
+      icon: material/brightness-7
+      name: Switch to dark mode
+
+  # Palette toggle for dark mode
+  - media: "(prefers-color-scheme: dark)"
+    scheme: slate
+    color_mode: dark
+    primary: teal
+    accent: indigo
+    toggle:
+      icon: material/brightness-4
+      name: Switch to light mode
+
+  plugins:
+    - search
+    - optimize
+
+  features:
+    - search.suggest
+    - navigation.instant
+    - navigation.instant.progress
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.arithmatex:
+      generic: true
